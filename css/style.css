@@ -3,40 +3,32 @@
     box-sizing: border-box;
     outline: 0;
 }
-
 body {
     background-color: #eeeeee;
     margin: 0px;
     font-family: 'ArialRegular', sans-serif;
 }
-
 .wrapper {
     background-color: #ffffff;
     max-width: 1049px;
     margin-left: auto;
     margin-right: auto;
-    /* display: flex;
-    flex-direction: column; */
 }
-
 .header {
     padding-top: 54px;
-    padding-bottom: 42px;    
+    padding-bottom: 42px;
 }
-
 .header-logo {
     background: url("../img/logo.png") no-repeat center;
     width: 189px;
     height: 36px;
 }
-
 .header-phone {
     width: 121px;
     height: 36px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .header-phone__number a {
     text-decoration: none;
     color: #f78b3f;
@@ -44,7 +36,6 @@ body {
     font-size: 14px;
     font-weight: 700;
 }
-
 .header-phone__subtitle p {
     color: #929292;
     font-family: "ArialRegular";
@@ -53,14 +44,12 @@ body {
     line-height: 16px;
     margin: 0px;
 }
-
 .header-callback {
     width: 129px;
     height: 36px;
     margin-left: auto;
     margin-right: 0px;
 }
-
 .header-callback__title p {
     color: #f78b3f;
     font-family: "ArialBold";
@@ -69,7 +58,6 @@ body {
     margin: 0px;
     cursor: pointer;
 }
-
 .header-callback__subtitle p {
     color: #929292;
     font-family: "ArialRegular";
@@ -78,37 +66,25 @@ body {
     line-height: 16px;
     margin: 0px;
 }
-
-/* content */
-/* .content {
-    flex-grow: 1;
-} */
-
 .menu-wrapper {
     background: url("../img/menu-background.png") no-repeat center;
     box-shadow: 2px 3px 3px rgba(13, 13, 15, 0.2);
     background-image: linear-gradient(to right, #8d8c8c 0%, #525252 100%);
-    /* max-width: 940px; */
     height: 51px;
     margin-bottom: 55px;
 }
-
 a {
     text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
 
-
 /* Внешний вид меню */
-
 .menu-navbar {
     display: block;
     padding: 18px 0 0 37px;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -117,11 +93,9 @@ ul {
     margin: 0;
     padding: 0;
 }
-
 .navbar li {
     position: relative;
 }
-
 .navbar li a {
     color: #eeeeee;
     font-family: "ArialBold";
@@ -129,11 +103,9 @@ ul {
     font-weight: 400;
     line-height: 16px;
 }
-
 .navbar__item:hover .navbar-submenu {
     visibility: visible;
 }
-
 .navbar-submenu {
     position: absolute;
     left: -22px;
@@ -148,24 +120,19 @@ ul {
     padding-left: 0px;
     z-index: 1;
 }
-
 .navbar-submenu__item {
     width: 164px;
     height: 34px;
 }
-
 .navbar-submenu__item:hover {
     background-color: #5c5c5c;    
 }
-
 .navbar-submenu__item:first-child:hover {
     background-color: #ffffff;
 }
-
 .navbar-submenu__item:hover a {
     color: #ffffff;
 }
-
 .navbar-submenu li a {
     color: #2d2d2d;
     font-family: "ArialRegular";
@@ -174,7 +141,6 @@ ul {
     line-height: 32px;
     padding-left: 21px;
 }
-
 .navbar-submenu__item p {
     margin: 0;
     padding: 7px 0 0 21px;
@@ -186,7 +152,6 @@ ul {
 }
 
 /* Контент: Блоки 1, 2, 3 */
-
 .blocks {
     margin-bottom: 63px;
 }
@@ -197,23 +162,18 @@ ul {
     box-shadow: 2px 3px 3px rgba(13, 13, 15, 0.2);
     border-radius: 12px;
 }
-
 .block-1 {
     background: url("../img/background-lake_2.png") no-repeat center;
 }
-
 .block-2 {
     background: url("../img/background-forest.png") no-repeat center;
 }
-
 .block-3 {
     background: url("../img/background-lake_3.png") no-repeat center;
 }
-
 .block-title__line {
     position: relative;
 }
-
 .block-title__line a {
     color: #ffffff;
     font-family: "ArialRegular";
@@ -221,7 +181,6 @@ ul {
     font-weight: 400;
     line-height: 32px;
 }
-
 .block-title__line__1::after {
     content: "";
     position: absolute;
@@ -232,7 +191,6 @@ ul {
     background-color: #ffffff;
     display: block;
 }
-
 .block-title__line__2__1::after {
     content: "";
     position: absolute;
@@ -243,7 +201,6 @@ ul {
     background-color: #ffffff;
     display: block;
 }
-
 .block-title__line__2__2::after {
     content: "";
     position: absolute;
@@ -254,7 +211,6 @@ ul {
     background-color: #ffffff;
     display: block;
 }
-
 .block-title__line__2__3::after {
     content: "";
     position: absolute;
@@ -272,7 +228,6 @@ ul {
     min-height: 110px;
     margin-bottom: 63px;
 }
-
 .greeting-title h2 {
     color: #2d2d2d;
     font-family: "ArialRegular";
@@ -280,7 +235,6 @@ ul {
     line-height: 32px;
     padding-left: 2px;
 }
-
 .greeting-contents p {
     color: #575757;
     font-family: "ArialRegular";
@@ -299,7 +253,6 @@ ul {
     margin-bottom: 67px;
     position: relative;
 }
-
 .slider-btn {
     position: absolute;
     top: 88%;
@@ -311,30 +264,24 @@ ul {
     padding: 0;
     z-index: 10;
 }
-
 .slider-btn__1 {
     left: 3%;
 }
-
 .slider-btn__2 {
     left: 5%;
 }
-
 .slider-btn__3 {
     left: 7%;
 }
-
 .slider-btn__img {
     width: 100%;
     vertical-align: middle;
 }
-
 .slider-item__img {
     width: 100%;
     height: 100%;
     flex-shrink: 0;
 }
-
 .slider-item {
     max-width: 936px;
     height: 294px;
@@ -448,7 +395,6 @@ ul {
     min-height: 110px;
     margin-bottom: 63px;
 }
-
 .offers-title h2 {
     color: #2d2d2d;
     font-family: "ArialRegular";
@@ -456,7 +402,6 @@ ul {
     line-height: 32px;
     padding-left: 2px;
 }
-
 .offers-contents p {
     color: #575757;
     font-family: "ArialRegular";
@@ -474,17 +419,14 @@ ul {
     border-top: 1px solid #e7e7e7;
     padding: 66px 67px 90px 50px;
 }
-
 .footer-menu {
     width: 15%;
     height: 125px;
 }
-
 .footer-menu__items {
     padding: 0;
     margin: 0;
 }
-
 .footer-menu__item a {
     color: #575757;
     font-family: "ArialRegular";
@@ -493,12 +435,10 @@ ul {
     line-height: 32px;
     border-bottom: 1px solid #575757;
 }
-
 .footer-form {
     width: 55%;
     height: 125px;
 }
-
 .footer-form__title {
     color: #2d2d2d;
     font-size: 26px;
@@ -507,7 +447,6 @@ ul {
     padding: 0;
     margin: 0 0 20px 0;
 }
-
 .footer-form__subtitle {
     color: #575757;
     font-family: "ArialRegular";
@@ -516,7 +455,6 @@ ul {
     padding: 0;
     margin: 0 0 20px 0;
 }
-
 .footer-form__input {
     width: 162px;
     height: 29px;
@@ -531,11 +469,9 @@ ul {
     margin-left: 0;
     box-shadow: inset 2px 2px 0 0 #c7c7c7;
 }
-
 .footer-form__input:focus {
     box-shadow: inset 0px 0px 3px 1px #c7c7c7;
 }
-
 .footer-form__btn {
     width: 98px;
     height: 29px;
@@ -550,6 +486,8 @@ ul {
     border: 0px;
     cursor: pointer;
 }
+
+/* Дополнительные настройки для различных разрешений экранов */
 
 @media (min-width: 1200px) {
     .container {
